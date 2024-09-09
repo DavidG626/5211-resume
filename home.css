@@ -478,29 +478,12 @@ footer {
     font-size: var(--f-12);
 }
 
-
-
-
-
-/* START SEO STYLES */
-
-/* END SEO STYLES */
-
-
-/* START RESPONSIVE STYLES */
 .page-container p, 
 .page-container ul {
     padding-bottom: var(--pd-125);
     list-style-type: none;
-    
 }
-/* END RESPONSIVE STYLES */
-
-
-
-
-
-
+/* END NAVIGATION BUTTONS */
 
 
 /* START @MEDIA BASE FONT SIZE 16PX*/
