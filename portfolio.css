@@ -234,8 +234,8 @@ nav ul li a:hover {
     top:             30%;
     left:            calc(50% - 7.8125rem);
     transform-style: preserve-3d;
-    transform:       perspective(6000px);
-    animation:       autoRun 100s linear infinite;
+    transform:       perspective(3000px);
+    animation:       autoRun 78s linear infinite;
     animation-fill-mode: forwards; 
 }
 .banner .slider .item {
@@ -246,7 +246,7 @@ nav ul li a:hover {
     left:   0;
     transform: 
          rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-         translateZ(34.375rem);
+         translateZ(24.375rem);
         }
     
 
@@ -300,8 +300,9 @@ nav ul li a:hover {
     left:   0;
     transform: 
          rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-         translateZ(34.375rem);
+         translateZ(24.375rem);  
         }
+        /*  translateZ(34.375rem);  */
     
 
 .banner-2 .slider-2 .item img {
@@ -320,10 +321,10 @@ nav ul li a:hover {
 
 @keyframes autoRun {
     from {
-        transform: perspective(300rem) rotateX(-33deg) rotateY(-360deg);
+        transform: perspective(300rem) rotateX(-23deg) rotateY(-360deg);
     }
     to {
-        transform: perspective(300rem) rotateX(-33deg) rotateY(360deg);
+        transform: perspective(300rem) rotateX(-23deg) rotateY(360deg);
     }
 }
 
@@ -403,7 +404,7 @@ nav ul li a:hover {
 
 @media (max-width: 600px) {
     html {
-        font-size: 6px;
+        font-size: 9px;
     }
     #logo {
         font-size: 24px;
@@ -414,7 +415,7 @@ nav ul li a:hover {
     }
     #h1 {
         padding-top: 28px;
-        font-size: 24px;
+        font-size: 32px;
     }
     .banner {
         width:      100%;
@@ -434,6 +435,11 @@ nav ul li a:hover {
         border-radius: 1px;
         background-color: var(--offwhite);
     }
+    nav ul li a:hover {
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
 
 }
 /* END @MEDIA */
@@ -486,7 +492,7 @@ footer {
     font-family: var(--new);
 }
 .phone-icon {
-    background: url('phone-1.png') no-repeat center center;
+    background: url('img/phone-1.png') no-repeat center center;
     display: inline-block;
     width: 1.5rem; 
     height: 1.5rem;
@@ -509,7 +515,7 @@ footer {
 
 
 .email-icon  {
-    background: url('email-1.png') no-repeat center center;
+    background: url('img/email.png') no-repeat center center;
     display: inline-block;
     width: 1.5rem; 
     height: 1.5rem;

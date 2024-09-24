@@ -373,7 +373,7 @@ footer {
     font-family: var(--new);
 }
 .phone-icon {
-    background: url('phone-1.png') no-repeat center center;
+    background: url('img/phone-1.png') no-repeat center center;
     display: inline-block;
     width: 1.5rem; 
     height: 1.5rem;
@@ -396,7 +396,7 @@ footer {
 
 
 .email-icon  {
-    background: url('email-1.png') no-repeat center center;
+    background: url('img/email.png') no-repeat center center;
     display: inline-block;
     width: 1.5rem; 
     height: 1.5rem;
@@ -500,14 +500,15 @@ footer {
 
 @media (max-width: 768px) {
     html {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
 
 @media (max-width: 600px) {
     html {
-        font-size: 13px;
+        font-size: 14px;
     }
+  
 }
 /* END @MEDIA */
