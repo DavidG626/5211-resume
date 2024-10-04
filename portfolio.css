@@ -106,7 +106,7 @@ body {
     color: var(--blk);
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 var(--pd-2);
+    padding: 0 var(--pd-05);
 }
 /* END GENERAL STYLES */
 
@@ -192,7 +192,6 @@ nav ul li a:hover {
 
 .hero h1 {
     font-size: var(--f-3);
-    margin-bottom: var(--mg-1);
     color: var(--wht);
 }
 
@@ -206,8 +205,9 @@ nav ul li a:hover {
  /* START CENTER IMAGE IN CAROUSEL */
  #musings {
     display: flex;
-    justify-content: center;
-    top: 00px;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: -275px;
     font-family: var(--new);
     font-size: var(--xl);
     font-weight: 500;
@@ -234,8 +234,8 @@ nav ul li a:hover {
     top:             30%;
     left:            calc(50% - 7.8125rem);
     transform-style: preserve-3d;
-    transform:       perspective(3000px);
-    animation:       autoRun 78s linear infinite;
+    transform:       perspective(6000px);
+    animation:       autoRun 60s linear infinite;
     animation-fill-mode: forwards; 
 }
 .banner .slider .item {
@@ -246,7 +246,7 @@ nav ul li a:hover {
     left:   0;
     transform: 
          rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-         translateZ(24.375rem);
+         translateZ(17.375rem);
         }
     
 
@@ -274,11 +274,11 @@ nav ul li a:hover {
 
 .banner-2 {
     width:      100%;
-    height:     150vh;
+    height:     10vh;
     text-align: center;
     overflow:   hidden;
     position:   relative;
-    border-radius: 1px;
+    border-radius: 5px;
     background-color: var(--offwhite);
 }
 .banner-2 .slider-2 {
@@ -289,7 +289,7 @@ nav ul li a:hover {
     left:            calc(50% - 7.8125rem);
     transform-style: preserve-3d;
     transform:       perspective(6000px);
-    animation:       autoRun 100s linear infinite;
+    animation:       autoRun 98s linear infinite;
     animation-fill-mode: forwards; 
 }
 .banner-2 .slider-2 .item {
@@ -300,7 +300,7 @@ nav ul li a:hover {
     left:   0;
     transform: 
          rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-         translateZ(24.375rem);  
+         translateZ(17.375rem);  
         }
         /*  translateZ(34.375rem);  */
     
@@ -343,6 +343,13 @@ nav ul li a:hover {
 
 
 /* START @MEDIA BASE FONT SIZE 16PX*/
+@media (max-width: 1600px) {
+    html {
+        font-size: 16px;
+    }
+
+   
+}
 @media (max-width: 1200px) {
     html {
         font-size: 16px;
@@ -352,7 +359,7 @@ nav ul li a:hover {
 
 @media (max-width: 992px) {
     html {
-        font-size: 10px;
+        font-size: 14px;
     }
     #logo {
         font-size: 32px;
@@ -363,6 +370,7 @@ nav ul li a:hover {
     h2 {
         font-size: 16px;
     }
+   
     .color-change-btn {
         width: 16px;
         height: 16px;
@@ -381,13 +389,16 @@ nav ul li a:hover {
         border-radius: 1px;
         background-color: var(--offwhite);
     }
+    #musings {
+        margin-top: -200px;
+    }
   
 }
 
 
 @media (max-width: 768px) {
     html {
-        font-size: 8px;
+        font-size: 12px;
     }
     #logo {
         font-size: 28px;
@@ -396,7 +407,7 @@ nav ul li a:hover {
         width: 16px;
         height: 16px;
     }
-    #h1 {
+    #h2 {
         font-size: 16px;
     }
 }
@@ -438,6 +449,9 @@ nav ul li a:hover {
     nav ul li a:hover {
         font-size: 1.5rem;
         cursor: pointer;
+    }
+    #musings {
+        margin-top: -130px;
     }
     
 

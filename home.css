@@ -73,7 +73,7 @@ html {
 /* END VAR() */
 
 
-/* START COLOR MODE */
+/* START DARK MODE */
 .darkmode {
   --or: black;
   --dblu: black;
@@ -512,3 +512,82 @@ footer {
   
 }
 /* END @MEDIA */
+
+
+
+
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+}
+.bottom-nav ul {
+    display: flex; /* Make the <ul> a flex container */
+    list-style: none; /* Remove bullet points */
+    padding: 16px; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.bottom-nav li {
+    margin: 0 10px; /* Add space between the list items */
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: var(--blk-o);
+}
+
+
+
+
+
+
+
+
+/* .pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    list-style-type: none;
+    background-color: var(--blu);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+   
+}
+.pagination li {
+    margin: 0;
+    
+}
+.pagination a {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--blk-o);
+    border-right: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+.pagination li:last-child a {
+    border-right: none;
+    
+}
+.pagination a:hover, .pagination a:focus {
+    background-color: var(--blk);
+}
+.pagination .active a {
+   
+    color: var(--blk-o);
+}
+.pagination .disabled a {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: not-allowed;
+} */
