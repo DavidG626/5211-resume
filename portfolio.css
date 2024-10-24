@@ -246,7 +246,7 @@ nav ul li a:hover {
     left:   0;
     transform: 
          rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-         translateZ(17.375rem);
+         translateZ(20.375rem);
         }
     
 
