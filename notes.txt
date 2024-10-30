@@ -1,0 +1,21 @@
+<!--[if mso]>
+<xml>
+    <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+</xml>
+<style>
+    table {border-collapse: collapse;}
+    .spacer,.divider {mso-line-height-rule: exactly;}
+    body, table, td, th, div, p, a, h1, h2, h3, h4, h5, h6 {
+        font-family: "Segoe UI", Arial, sans-serif !important;
+    }
+    td, th, div, p, a {font-size: 16px; line-height: 25px;}
+</style>
+<![endif]-->
+
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<!--<![endif]-->
