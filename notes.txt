@@ -27,3 +27,76 @@ Innovative Thinking:
 Demonstrated ability to develop creative solutions to technical challenges
 Keen interest in emerging web technologies and SEO trends
 Proactive approach to learning and implementing new techniques 
+
+
+     <!-- Footer -->
+        <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="max-width: 600px;" role="presentation" class="width100">
+            <tr>
+                <td align="center">
+                    <table ccellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 20px;" role="presentation" class="width100">
+                        <!-- Email Address Row -->
+                        <tr>
+                            <td align="center" style="padding: 10px 0; color: #666666; font-family: Arial, sans-serif; font-size: 12px; line-height: 1.5;">
+                            This message was sent to <a href="mailto:loremipsum@gmail.com" style="color: #666666; text-decoration: underline;">loremipsum@gmail.com</a>
+                            </td>
+                        </tr>
+
+                        <!-- Unsubscribe Row -->
+                        <tr>
+                            <td align="center" style="padding: 10px 20px; color: #666666; font-family: Arial, sans-serif; font-size: 12px; line-height: 1.5;">
+                            This is a commercial message. You received this email because you opted in to receive updates 
+                            from Truth Social. If you would rather not receive future marketing emails from us, you can 
+                            <a href="#" style="color: #666666; text-decoration: underline;">unsubscribe here</a>
+                            . Please allow up to 10 business days for your request to be processed.
+                            </td>
+                        </tr>
+                        <!-- Physical Address Row -->
+                        <tr>
+                            <td align="center" style="padding: 15px 0; color: #666666; font-family: Arial, sans-serif; font-size: 12px; line-height: 1.5;">
+                            Copyright © 2023 TMTG, All rights reserved<br><br>
+                            <br>
+                            Trump Media & Technology Group<br>
+                            401 N. CATTLEMAN RD STE. 200<br>
+                            SARASOTA, FL 34232
+                            </td>
+                        </tr>
+                        <!-- Links Row -->
+                        <tr>
+                            <td align="center" style="padding: 10px 0; color: #666666; font-family: Arial, sans-serif; font-size: 12px; line-height: 1.5;">
+                                <table cellpadding="0" cellspacing="0" border="0" class="width100" role="presentation">
+                                    <tr>
+                                        <td style="padding: 0 10px;">
+                                            <a href="#" style="color: #666666; text-decoration: underline;">Email Settings</a>
+                                        </td>
+                                        <td style="padding: 0 10px;">
+                                            <a href="#" target="_blank" style="color: #666666; text-decoration: underline;">Privacy Policy</a>
+                                        </td>
+                                        <td style="padding: 0 10px;">
+                                            <a href="#" target="_blank" style="color: #666666; text-decoration: underline;">Terms of Service</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+         <!-- App Store Links -->
+        <table cellpadding="0" cellspacing="0" border="0" align="center" width="400" class="width100" role="presentation">
+            <tr>
+                <td style="padding: 0 10px;">
+                    <a href="https://apps.apple.com/us/app/truth-social/id1586018825?utm_medium=email&utm_source=ncl_amplify&utm_campaign=241101-campaign_v209_trump_media_ceo_devin_nunes_joins_the_victor_davis_hanson_show&utm_content=ncl-ZPwnNrhymw&_nlid=ZPwnNrhymw&_nhids=nc33wIk8C8jP7ls"><img src="https://i.ibb.co/v37fDhW/Screenshot-2024-11-04-at-4-21-15-PM.png" alt="Apple Store Link" width="150" height="45"></a>
+                </td>
+                <td style="padding: 0 10px;">
+                    <a href="https://galaxystore.samsung.com/detail/com.truthsocial.android.app?badge=truthapp&hit_type=Desktop&session_id=W_1e3f6097f75433edd2d0a5dbeef2d577&source=GBadge_01_6503962_truthapp"><img src="https://i.ibb.co/7QmqWLx/Screenshot-2024-11-04-at-4-23-08-PM.png" alt="Galaxy Store Link" width="150" height="45"></a>
+                </td>
+                <td style="padding: 0 10px;border-radius: 1px;">
+                    <a href="https://play.google.com/store/apps/details?id=com.truthsocial.android.app&utm_medium=email&utm_source=ncl_amplify&utm_campaign=241101-campaign_v209_trump_media_ceo_devin_nunes_joins_the_victor_davis_hanson_show&utm_content=ncl-ASDfJMMxmu&_nlid=ASDfJMMxmu&_nhids=nc33wIk8C8jP7ls"><img src="https://i.ibb.co/VBN5SG3/Screenshot-2024-11-04-at-4-23-19-PM.png" alt="Google Play" width="150" height="45" ></a>
+                </td>
+            </tr>
+        </table>
