@@ -93,7 +93,7 @@ html {
 /* START GENERAL STYLES */
 body {
     line-height: 1.6;
-    background-color: var(--offwhite);
+    background-color: var(--lblu);
 }
 .container {
     color: var(--blk);

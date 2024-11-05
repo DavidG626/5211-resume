@@ -35,6 +35,7 @@ html {
     --gf:  #b9d9eb;
     --gray:#b9b1ac;
     --offwhite: #f5f5f5;
+    --lightgray: #D3D3D3;
     /* END COLORS */
 
     /* START FONT FAMILIES */
@@ -93,6 +94,7 @@ html {
   --lblu: #1f1f1f;
   --blk-o: #ff1e00;
   --blk-w: #8f9da6;
+  --lightgray: black;
 }
 /* END DARK MODE */
 
@@ -100,7 +102,7 @@ html {
 /* START GENERAL STYLES */
 body {
     line-height: 1.6;
-    background-color: var(--offwhite);
+ 
 }
 .container {
     color: var(--blk);
@@ -225,7 +227,7 @@ nav ul li a:hover {
     overflow:   hidden;
     position:   relative;
     border-radius: 1px;
-    background-color: var(--offwhite);
+    background-color: var(--lightgray);
 }
 .banner .slider {
     position: absolute;
@@ -415,7 +417,7 @@ nav ul li a:hover {
 
 @media (max-width: 600px) {
     html {
-        font-size: 9px;
+        font-size: 7px;
     }
     #logo {
         font-size: 24px;
@@ -423,6 +425,13 @@ nav ul li a:hover {
     .color-change-btn {
         width: 12px;
         height: 12px;
+    }
+    .color-change-btn:hover {
+        width: 14px;
+        height: 14px;
+    }
+    .home:hover {
+        font-size: 18px;
     }
     #h1 {
         padding-top: 28px;
@@ -453,7 +462,30 @@ nav ul li a:hover {
     #musings {
         margin-top: -130px;
     }
+
+    .contact {
+        font-size: 2.5rem;
+    }
+    .contact section a {
+        font-size: 16px;
+        transition: font-size 0.2s ease;
+    }
+    .contact section a:hover {
+        font-size: 19px;
+    }
+
+    footer {
+        font-size: 2.5rem;
+    }
     
+    footer .footer-section a {
+        font-size: 16px;
+        transition: font-size 0.2s ease;
+    }
+
+    footer .footer-section a:hover {
+        font-size: 19px;
+    }
 
 }
 /* END @MEDIA */

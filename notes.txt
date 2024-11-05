@@ -1,21 +1,29 @@
-<!--[if mso]>
-<xml>
-    <o:OfficeDocumentSettings>
-        <o:AllowPNG/>
-        <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-</xml>
-<style>
-    table {border-collapse: collapse;}
-    .spacer,.divider {mso-line-height-rule: exactly;}
-    body, table, td, th, div, p, a, h1, h2, h3, h4, h5, h6 {
-        font-family: "Segoe UI", Arial, sans-serif !important;
-    }
-    td, th, div, p, a {font-size: 16px; line-height: 25px;}
-</style>
-<![endif]-->
-
-<!--[if !mso]><!-->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<!--<![endif]-->
+Web Development Expertise: 
+HTML, CSS, JavaScript, and modern frameworks (e.g., React, Vue.js, Angular)
+Experience with server-side languages (e.g., PHP, Python, Node.js)
+Proficiency in version control systems (e.g., Git)
+Experience with API development and integration 
+CRM Skills:
+Proficiency with major CRM platforms (e.g., Salesforce, HubSpot, MS Dynamics) for seamless integration and execution of email marketing campaigns.
+Ability to code and customize responsive HTML email templates, ensuring compatibility across various email clients and devices.
+Expertise in integrating dynamic content, personalization, and segmentation within email campaigns to enhance engagement and deliver targeted messaging.
+Experience in A/B testing email templates and analyzing performance metrics to refine strategies and maximize open and click-through rates.
+Knowledge of email deliverability best practices, including managing sender reputation and avoiding spam filters.
+Familiarity with automation tools to set up trigger-based email campaigns and workflows that align with the customer journey.
+SEO Skills: 
+Deep understanding of search engine algorithms and ranking factors
+Expertise in technical SEO, including site architecture, crawlability, and indexation 
+Experience with advanced SEO tools (e.g., SEMrush, Ahrefs, Screaming Frog) 
+Knowledge of international SEO and multi-language site optimization 
+Technical Proficiency:
+Excellent problem-solving skills with the ability to debug complex issues
+Experience with performance optimization techniques and tools
+Familiarity with serverless architectures and cloud platforms (e.g., AWS, Google Cloud) 
+Analytical Skills: 
+Proficiency in web analytics platforms (e.g., Google Analytics, Adobe Analytics)
+Ability to derive actionable insights from complex data sets
+Experience with A/B testing and conversion rate optimization 
+Innovative Thinking: 
+Demonstrated ability to develop creative solutions to technical challenges
+Keen interest in emerging web technologies and SEO trends
+Proactive approach to learning and implementing new techniques 
