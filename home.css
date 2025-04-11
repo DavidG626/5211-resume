@@ -30,11 +30,12 @@ html {
     --lblu:#8f9da6;
     --blk: #111111;
     --wht: #ececec;
-    --w:   #fafafa;
+    --w:   #f4f4f4;
     --gr:  #228B22;
     --gf:  #b9d9eb;
     --gray:#b9b1ac;
     --offwhite: #f5f5f5;
+    --omgg: #ff1e00;
     /* END COLORS */
 
     /* START FONT FAMILIES */
@@ -80,12 +81,14 @@ html {
   --blu: black;
   --wht: #ff1e00;
   --blk: #ff1e00;
-  --w: #1a1a1a;
+  --w:  black;
   --nb: #0d0d0d;
   --offwhite:  #0d0d0d;
   --lblu: #1f1f1f;
   --blk-o: #ff1e00;
   --blk-w: #8f9da6;
+  --omg: #315470;
+  --omgg: #315470;
 }
 /* END DARK MODE */
 
@@ -93,7 +96,7 @@ html {
 /* START GENERAL STYLES */
 body {
     line-height: 1.6;
-    background-color: var(--lblu);
+    background-color: var(--w);
 }
 .container {
     color: var(--blk);
@@ -106,8 +109,8 @@ body {
 
 /* START HEADER */
 header {
-    background-color: var(--or);
-    color: var(--wht);
+    background-color: var(--omgg);
+    color: var(--omg-2);
     padding: var(--pd-1) 0;
     position: fixed;
     width: 100%;
@@ -251,7 +254,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: left;
-    background-color: var(--w);
+    background-color: var(--omg);
     padding: var(--pd-15);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -298,7 +301,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: left;
-    background-color: var(--w);
+    background-color: var(--omg);
     padding: var(--pd-15);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
