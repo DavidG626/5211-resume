@@ -35,7 +35,8 @@ html {
     --gf:  #b9d9eb;
     --gray:#b9b1ac;
     --offwhite: #f5f5f5;
-    --lightgray: #D3D3D3;
+    --lightgray: #f4f4f4;
+    --omgg: #ff1e00;
     /* END COLORS */
 
     /* START FONT FAMILIES */
@@ -95,6 +96,7 @@ html {
   --blk-o: #ff1e00;
   --blk-w: #8f9da6;
   --lightgray: black;
+  --omgg: #315470;
 }
 /* END DARK MODE */
 
@@ -115,9 +117,9 @@ body {
 
 /* START HEADER */
 header {
-    background-color: var(--or);
+    background-color: var(--omgg);
     color: var(--wht);
-    padding: var(--pd-1) 0;
+    padding: var(--pd-1);
     position: fixed;
     width: 100%;
     top: 0;
@@ -578,6 +580,26 @@ footer {
 
 
 .email-icon + a:hover {
+  font-size: var(--f-12);
+}
+.github-icon  {
+    background: url('img/github.png') no-repeat center center;
+    display: inline-block;
+    width: 1.5rem; 
+    height: 1.5rem;
+    background-size: contain; 
+    margin-right: 0.5rem; 
+    vertical-align: middle; 
+}
+
+.github-icon + a {
+  transition: font-size 0.3s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.github-icon + a:hover {
   font-size: var(--f-12);
 }
 
